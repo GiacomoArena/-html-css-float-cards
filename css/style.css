@@ -3,7 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* GENERAL */
 
-/* body{
-  background-color: red;
-} */
+body{
+  font-family: 'Fredoka', sans-serif;
+}
+h1{
+  color: #E53170;
+}
+.container{
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+header{
+  text-align: center;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* HEADER */
+
+.reg-titolo{
+  margin-top: 25px;
+}
+
+/* MAIN */
+
+.col{
+  float:left ;
+  width: calc( 100% / 3);
+  background-color: cadetblue;
+  display: inline-block;
+}
+.col img{
+  width: 80px;
+  display: inline-block;
+  
+}
+.valore-testo{
+  display: inline-block;
+  
+}
