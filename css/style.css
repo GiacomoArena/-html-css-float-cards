@@ -11,6 +11,21 @@ body{
 h1{
   color: #E53170;
 }
+h2{
+  color: white;
+  font-size: 1.3rem;
+}
+span{
+  color: white;
+}
+a{
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+main{
+  padding-top: 20px;
+}
 .container{
   width: 80%;
   max-width: 1170px;
@@ -37,16 +52,14 @@ header{
 
 .col{
   float:left ;
-  width: calc( 100% / 3);
-  background-color: cadetblue;
+  width: calc( 100% / 4);
+  background-color: rgb(0, 0, 0);
   display: inline-block;
+  margin: 25px;
 }
 .col img{
   width: 80px;
-  display: inline-block;
-  
-}
-.valore-testo{
-  display: inline-block;
-  
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
 }
